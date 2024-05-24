@@ -13,13 +13,13 @@
 }
 
 @media(max-width: 921px) {
-    /* .opacity1 {
+    .opacity1 {
         opacity: 0.1;
     }
 
     .opacity2 {
-        opacity: 1
-    } */
+        opacity: 1;
+    }
 
     .header {
         padding: 0 1.8rem;
@@ -57,7 +57,7 @@
         translate: -898px -1px;
       } */
     .res-menu {
-        translate: 391px 53px;
+        translate: 485px 53px;
     }
 
     .header .logo {
@@ -207,13 +207,6 @@
 
     .contact h1 {
         font-size: 2.6rem;
-    }
-    .opacity1 {
-        opacity: 0.1;
-    }
-
-    .opacity2 {
-        opacity: 1
     }
 
 }
