@@ -3,16 +3,16 @@
     --second-bg-color: #151515;
     --text-color: white;
     --main-color: #04fffb;
-    --header-background: rgba(0, 0, 0, 0.6);
+    --header-background: rgb(39, 35, 63);
 }
 
-@media(min-width: 706px) {
+@media(min-width: 921px) {
     #menu-icon {
         display: none;
     }
 }
 
-@media(max-width: 706px) {
+@media(max-width: 921px) {
 
     .header {
         padding: 0 1.8rem;
@@ -25,8 +25,7 @@
         margin-top: 14rem;
         height: 259px;
         width: 12rem;
-        background-color: rgba(0, 0, 0, 0.7);
-        backdrop-filter: blur(10px);
+        background-color: var(--header-background);
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -34,7 +33,7 @@
         border-end-start-radius: 0.9rem;
         border: 2px solid var(--main-color);
         gap: 2rem;
-        transition: all 0.2s cubic-bezier(.17, .84, .44, 1);
+        transition: all 0.4s cubic-bezier(.17, .84, .44, 1);
     }
 
     #menu-icon {
@@ -47,6 +46,9 @@
         margin-right: 2rem;
     }
 
+    /* .res-menu {
+        translate: -898px -1px;
+      } */
     .res-menu {
         translate: 391px 53px;
     }
@@ -160,14 +162,7 @@
         margin-top: 14rem;
         height: 259px;
         width: 15rem;
-        gap: 2rem;
-        background-color: rgba(0, 0, 0, 0.7);
-        backdrop-filter: blur(10px);
-        transition: all 0.2s cubic-bezier(.17, .84, .44, 1);
-    }
-
-    .res-menu {
-        translate: 391px 53px;
+        gap: 2rem
     }
 
     .ocial-icons {
@@ -269,9 +264,10 @@
     .services {
         height: 111vh;
     }
+
     .footer {
         height: 30vh;
-      }
+    }
 }
 
 @media(max-height: 480px) {
@@ -283,14 +279,17 @@
         height: 153vh;
     }
 }
-@media(max-height: 440px){
+
+@media(max-height: 440px) {
     .home {
         height: 182vh;
-      }
-      .services {
+    }
+
+    .services {
         height: 133vh;
-      }
-      .footer {
+    }
+
+    .footer {
         height: 32vh;
-      }
+    }
 }
