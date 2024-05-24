@@ -42,12 +42,14 @@ body {
     font-size: 1.2rem;
     animation: slideleft 1s ease forwards;
 }
-@keyframes slideleft{
-    0%{
+
+@keyframes slideleft {
+    0% {
         transform: translateX(500px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
@@ -68,16 +70,19 @@ body {
     animation: slideupp 0.5s ease forwards;
     animation-delay: 0.9s;
 }
-@keyframes slideupp{
-    0%{
+
+@keyframes slideupp {
+    0% {
         transform: translateY(100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
         opacity: 1;
     }
 }
+
 .header .logo:hover {
     transform: scale(1.2);
 }
@@ -97,14 +102,16 @@ body {
     border-radius: 1.5rem;
     height: 3rem;
     padding-left: 1.8rem;
-    animation: slideup 2s  ease forwards;
+    animation: slideup 2s ease forwards;
 }
-@keyframes slideup{
-    0%{
+
+@keyframes slideup {
+    0% {
         transform: translateY(-25px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
         opacity: 1;
     }
@@ -174,21 +181,25 @@ body {
     font-weight: 600;
     min-width: 280px;
 }
-.ani{
+
+.ani {
     opacity: 0;
     animation: slidedown 1s ease forwards;
     /* animation-delay: 1s; */
 }
-@keyframes slidedown{
-    0%{
+
+@keyframes slidedown {
+    0% {
         transform: translateY(-100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
         opacity: 1;
     }
 }
+
 .text-animation span {
     position: relative;
 }
@@ -312,12 +323,14 @@ body {
     transition: 0.3s ease-in-out;
     animation: slideright 1s ease forwards;
 }
-@keyframes slideright{
-    0%{
+
+@keyframes slideright {
+    0% {
         transform: translateX(-500px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
@@ -555,7 +568,7 @@ body {
     transform: scale(1.1);
 }
 
-.footer{
+.footer {
     background-color: var(--footer-background);
     height: 15vh;
     color: white;
@@ -567,7 +580,8 @@ body {
     font-size: 1.3rem;
     flex-wrap: wrap;
 }
-.footer img{
+
+.footer img {
     height: 60px;
     width: 60px;
     border-radius: 50%;

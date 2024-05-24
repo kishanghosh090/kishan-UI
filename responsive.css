@@ -13,6 +13,13 @@
 }
 
 @media(max-width: 921px) {
+    /* .opacity1 {
+        opacity: 0.1;
+    }
+
+    .opacity2 {
+        opacity: 1
+    } */
 
     .header {
         padding: 0 1.8rem;
@@ -201,6 +208,14 @@
     .contact h1 {
         font-size: 2.6rem;
     }
+    .opacity1 {
+        opacity: 0.1;
+    }
+
+    .opacity2 {
+        opacity: 1
+    }
+
 }
 
 @media(max-height: 763px) {
